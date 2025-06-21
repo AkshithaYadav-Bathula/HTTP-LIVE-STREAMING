@@ -1,0 +1,48 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.player-container {
+  margin: 20px 0;
+}
+
+.controls {
+  margin: 20px 0;
+  padding: 15px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+
+.quality-info {
+  margin: 10px 0;
+  padding: 10px;
+  background: #e8f4fd;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+button {
+  margin: 5px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #007bff;
+  color: white;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+button.active {
+  background: #28a745;
+}
+
+.bandwidth-display {
+  font-weight: bold;
+  color: #007bff;
+}
